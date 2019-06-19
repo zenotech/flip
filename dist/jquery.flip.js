@@ -1,6 +1,6 @@
-/*! flip - v1.1.2 - 2016-10-20
+/*! flip - v1.1.2 - 2019-06-19
 * https://github.com/nnattawat/flip
-* Copyright (c) 2016 Nattawat Nonsung; Licensed MIT */
+* Copyright (c) 2019 Nattawat Nonsung; Licensed MIT */
 (function( $ ) {
   /*
    * Private attributes and method
@@ -201,9 +201,7 @@
       }
 
 
-      faces.css(faceElementCss).find('*').css({
-        "backface-visibility": "hidden"
-      });
+      faces.css(faceElementCss).css({ "backface-visibility": "hidden" });
 
       self.element.css(elementCss);
       self.backElement.css(backElementCss);

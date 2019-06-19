@@ -198,9 +198,7 @@
       }
 
 
-      faces.css(faceElementCss).find('*').css({
-        "backface-visibility": "hidden"
-      });
+      faces.css(faceElementCss).css({ "backface-visibility": "hidden" });
 
       self.element.css(elementCss);
       self.backElement.css(backElementCss);
